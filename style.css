@@ -1,0 +1,82 @@
+.bg_navbar{
+    background-color:#28B5B5;
+    padding-left: 50px;
+}
+
+
+img{
+    width: 20%;
+}
+
+.fcc-btn {
+  background-color: #0000FF;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.bg_imag{
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.8) , rgba(0,0,0,0) ) ,url(img/op.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.main_text{
+    padding: 100px 20px 10px 70px ;
+    color: #fff;
+    width: 80%;
+}
+.main_text h1{
+font-size: 64px;
+}
+.section_content{
+    height: 115vh;
+    padding: 40px 20px 50px 70px;
+    background-color:#6ECCAF ;
+}
+.section_content h2{
+    padding: 20px 30px 30px 70px;
+}
+.section_glass{
+    padding: 30px 10px 40px 40px;
+    padding-left: 40px;
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card{
+    transition: all .3s;
+}
+.card:hover{
+    transform: scale(.95);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+}
+.section_token{
+    height: 120vh;
+    padding: 40px 20px 50px 70px;
+background-color: #EDF1D6;
+}
+
+.footer{
+    background-color:#28B5B5 ;
+    height: 80px;
+}
+
+
+/* MEDIA QUERIES */
+@media(min-width: 481px) and (max-width:768px){
+
+    main{
+        display:block;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    
+}
